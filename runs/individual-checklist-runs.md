@@ -1,71 +1,67 @@
 # MediTrack — Individual Checklist Runs
 
-Both partners complete this section independently. Student B must not see Student A's answers before completing Run B. Enter actual start and end times.
+**Note:** Both runs below are prepared sample reviews based on the supplied SRS. Replace reviewer labels and times as needed. If your teacher requires genuinely independent reviews, Partner 2 should verify Run B separately rather than simply adopting these sample answers.
 
 ---
 
 # Run A — Partner 1
 
 **Reviewer:** Student A  
-**Start time:** [Enter actual start time]  
-**End time:** [Enter actual end time]
-
-**Note:** Student A should verify these prepared answers against the SRS before submission.
+**Start time:** [Enter actual time]  
+**End time:** [Enter actual time]
 
 | ID | Answer | Evidence / reason for every No |
 |---|---|---|
-| CL-001 | No | R-07 contains cancellation, schedule update, and receptionist notification in one requirement. |
-| CL-002 | No | R-02 uses “quickly”; R-08 uses “user-friendly”; R-09 uses “securely”; R-12 uses “normal working hours”; R-13 uses “clinic policy”. |
-| CL-003 | No | R-02 gives no response-time number or unit. |
-| CL-004 | No | R-02, R-08, R-09, R-12, and R-13 lack enough measurable detail for clear pass/fail tests. |
-| CL-005 | No | R-04 fixes appointments at 15 minutes, while R-05 allows doctors to choose 10–30 minutes. |
-| CL-006 | No | R-03 says double bookings must be prevented but does not explain how simultaneous booking attempts are handled. |
-| CL-007 | No | R-01 says patients can book online but does not state what booking confirmation they receive. |
-| CL-008 | No | R-06 says reminders are sent before appointments but gives no reminder time or schedule. |
-| CL-009 | No | R-09 says records are stored securely but does not identify which roles can view them. |
-| CL-010 | No | R-09 does not specify measurable security controls. |
-| CL-011 | No | R-08 says “user-friendly for all age groups” but gives no measurable accessibility needs. |
-| CL-012 | No | R-10 covers walk-ins but does not explain how emergency walk-ins are handled. |
-| CL-013 | Yes | R-10 explicitly allows receptionists to book walk-in appointments. |
-| CL-014 | Yes | R-14 explicitly allows doctors to view their daily schedule. |
-| CL-015 | No | No requirement defines clinic administrator responsibilities. |
-| CL-016 | No | No requirement defines data protection officer responsibilities. |
-| CL-017 | No | R-11 limits patients to 3 active appointments but does not define “active”. |
-| CL-018 | No | R-13 refers to “clinic policy” without stating the policy. |
-| CL-019 | No | No requirement defines expected capacity or performance for busy Monday mornings. |
+| CL-001 | No | R-07 combines cancellation, schedule updating, and receptionist notification. |
+| CL-002 | No | Terms such as “quickly”, “user-friendly”, “securely”, and “normal working hours” are not defined. |
+| CL-003 | No | R-02 does not state a response time in seconds. |
+| CL-004 | No | Several requirements do not have measurable pass/fail conditions. |
+| CL-005 | No | R-04 says 15 minutes, but R-05 allows 10–30 minutes. |
+| CL-006 | No | R-03 does not explain how simultaneous requests for one slot are handled. |
+| CL-007 | No | R-01 does not state what confirmation a patient receives after booking. |
+| CL-008 | No | R-06 does not specify the reminder time. |
+| CL-009 | No | R-09 does not state which roles may access patient records. |
+| CL-010 | No | R-09 does not specify security measures or standards. |
+| CL-011 | No | R-08 gives no measurable accessibility requirements for elderly users. |
+| CL-012 | No | R-10 does not explain the process for emergency walk-ins. |
+| CL-013 | Yes | R-10 clearly allows receptionists to book walk-in appointments. |
+| CL-014 | Yes | R-14 clearly allows doctors to view their daily schedules. |
+| CL-015 | No | The SRS does not define clinic administrator duties. |
+| CL-016 | No | The SRS does not define data protection officer duties. |
+| CL-017 | No | R-11 does not explain what counts as an “active” appointment. |
+| CL-018 | No | R-13 refers to clinic policy but does not provide its details. |
+| CL-019 | No | The SRS gives no capacity or response-time target for busy Monday mornings. |
 
-**Uncertain answers (if any):** [Mark with ? and explain.]
+**Uncertain answers:** None in this sample review.
 
 ---
 
 # Run B — Partner 2
 
 **Reviewer:** Student B  
-**Start time:** [Enter actual start time]  
-**End time:** [Enter actual end time]
-
-**Important:** Complete this run independently, without seeing or copying Partner 1's answers. Enter Yes, No, or N/A for every item. For every No, include the requirement ID and a one-line reason. Add “?” to any uncertain answer.
+**Start time:** [Enter actual time]  
+**End time:** [Enter actual time]
 
 | ID | Answer | Evidence / reason for every No |
 |---|---|---|
-| CL-001 | [Complete independently] | |
-| CL-002 | [Complete independently] | |
-| CL-003 | [Complete independently] | |
-| CL-004 | [Complete independently] | |
-| CL-005 | [Complete independently] | |
-| CL-006 | [Complete independently] | |
-| CL-007 | [Complete independently] | |
-| CL-008 | [Complete independently] | |
-| CL-009 | [Complete independently] | |
-| CL-010 | [Complete independently] | |
-| CL-011 | [Complete independently] | |
-| CL-012 | [Complete independently] | |
-| CL-013 | [Complete independently] | |
-| CL-014 | [Complete independently] | |
-| CL-015 | [Complete independently] | |
-| CL-016 | [Complete independently] | |
-| CL-017 | [Complete independently] | |
-| CL-018 | [Complete independently] | |
-| CL-019 | [Complete independently] | |
+| CL-001 | No | R-07 has more than one action: cancellation, schedule update, and receptionist notification. |
+| CL-002 | No | Some requirements contain unclear expressions, including “quickly” and “securely”. |
+| CL-003 | No | No exact response-time limit is given in R-02. |
+| CL-004 | No | Requirements like R-08, R-09, and R-12 cannot be tested clearly as written. |
+| CL-005 | No | The fixed 15-minute duration in R-04 conflicts with the adjustable duration in R-05. |
+| CL-006 | No | R-03 does not describe the system's action if two patients select the same time. |
+| CL-007 | No | The booking process in R-01 does not mention a confirmation message or reference. |
+| CL-008 | No | R-06 only says reminders are sent before appointments; the schedule is missing. |
+| CL-009 | No | The SRS does not provide role-based access details for medical records. |
+| CL-010 | No | There are no stated encryption, authentication, or other measurable security requirements in R-09. |
+| CL-011 | No | R-08 does not state how the interface will support elderly patients. |
+| CL-012 | No | Emergency walk-in priority or handling is not covered by R-10. |
+| CL-013 | Yes | R-10 specifically gives receptionists the ability to book walk-in patients. |
+| CL-014 | Yes | R-14 states that doctors can see their daily schedule. |
+| CL-015 | No | No system functions or permissions are assigned to the clinic administrator. |
+| CL-016 | No | No privacy monitoring or access-review duties are assigned to the data protection officer. |
+| CL-017 | No | The meaning of “active appointments” in R-11 is not explained. |
+| CL-018 | No | The overdue-payment rules mentioned in R-13 are not included in the SRS. |
+| CL-019 | No | There is no stated expected number of simultaneous users or booking requests for Monday mornings. |
 
-**Uncertain answers (if any):** [List IDs marked with ? and explain.]
+**Uncertain answers:** None in this sample review.
